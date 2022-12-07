@@ -13,6 +13,12 @@
 
 <h3 align="left">Resultado esperado </h3>
 
-![quest1(1-2)](https://user-images.githubusercontent.com/93049848/206190128-e1ac056c-6938-4312-9dbb-94dfff79b341.png)
+![Captura de tela 2022-12-07 145632](https://user-images.githubusercontent.com/93049848/206259633-7270bb92-8a52-43d5-be3c-a50d524fb08e.png)
 
-![quest1(2-2)](https://user-images.githubusercontent.com/93049848/206190136-02a9884b-8a99-44aa-b378-85090bc267d9.png)
+![Captura de tela 2022-12-07 145653](https://user-images.githubusercontent.com/93049848/206259641-9d354b91-1640-4489-b524-cdeef89da38f.png)
+
+![Captura de tela 2022-12-07 145607](https://user-images.githubusercontent.com/93049848/206259644-30eb0c77-30bd-4502-b66a-863e0890c9dd.png)
+
+#QUESTAO 1 
+
+
