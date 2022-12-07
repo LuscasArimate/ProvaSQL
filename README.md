@@ -19,6 +19,51 @@
 
 ![Captura de tela 2022-12-07 145607](https://user-images.githubusercontent.com/93049848/206259644-30eb0c77-30bd-4502-b66a-863e0890c9dd.png)
 
-#QUESTAO 1 
+### QUESTAO 1 
+
+```SQL
+
+
+INSERT INTO TB_ALUNO(CODIGO_ALUNO, NOME_ALUNO,ANO_NASC, EMAIL, SEXO)
+
+VALUES (4,'Pedro Cesar', NULL, NULL, 'M');
+
+INSERT INTO TB_MATRICULA( CODIGO CURSO, CODIGO_ALUNO)
+VALUES (4,4)
+
+
+```
+![quest1(1-2)](https://user-images.githubusercontent.com/93049848/206260508-981bca26-a847-493e-af39-e0bdeaba8c3e.png)
+
+![quest1(2-2)](https://user-images.githubusercontent.com/93049848/206260580-ba31f1ae-271a-4fb1-9949-bfbc2ce789b0.png)
+
+
+
+### QUESTAO 2
+
+```SQL
+
+SELECT TB_ALUNO.NOME_ALUNO, TB_CURSO.NOME_CURSO 
+FROM TB_ALUNO 
+INNER JOIN TB_MATRICULA 
+ON TB_ALUNO.CODIGO_ALUNO = TB_MATRICULA.CODIGO_ALUNO
+INNER JOIN TB_CURSO
+ON TB_CURSO.CODIGO_CURSO = TB_MATRICULA.CODIGO_CURSO
+
+
+```
+
+
+### QUESTAO 3
+
+```SQL
+
+SELECT EMAIL
+FROM TB_ALUNO WHERE 2022 - ANO_NASC >= 18
+
+
+
+```
+![quest3](https://user-images.githubusercontent.com/93049848/206262205-ad6965c1-5095-4bb4-b68a-9601a5660881.png)
 
 
