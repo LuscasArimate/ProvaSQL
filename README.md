@@ -67,3 +67,65 @@ FROM TB_ALUNO WHERE 2022 - ANO_NASC >= 18
 ![quest3](https://user-images.githubusercontent.com/93049848/206262205-ad6965c1-5095-4bb4-b68a-9601a5660881.png)
 
 
+
+### QUESTAO 4
+
+
+```SQL
+
+
+SELECT count (CODIGO_ALUNO) FROM TB_ALUNO 
+
+
+```
+
+![quest4(1-1)](https://user-images.githubusercontent.com/93049848/206442396-803f639c-933a-4ca3-9108-10c1f5271bd9.png)
+
+
+### QUESTAO 5
+
+
+```SQL
+
+
+
+SELECT TB_CURSO.NOME_CURSO,
+CODIGO_CURSO + CODIGO_CURSO as NUMERO_ALUNO
+FROM TB_CURSO 
+INNER JOIN TB_ALUNO 
+ON TB_ALUNO.CODIGO_ALUNO = TB_CURSO.CODIGO_CURSO
+
+```
+
+![quest5](https://user-images.githubusercontent.com/93049848/206442555-f7cf8de6-dede-4951-ba13-61d149aa2596.png)
+
+
+### QUESTAO 6
+
+
+```SQL
+
+
+
+SELECT NOME_ALUNO FROM TB_ALUNO where 2022 - ano_nasc = 18
+
+
+```
+
+![quest6](https://user-images.githubusercontent.com/93049848/206442700-b4ba7dcc-77da-4217-8920-4eac8935569b.png)
+
+
+
+### QUESTAO 7
+
+
+```SQL
+
+
+
+SELECT NOME_ALUNO, SEXO
+FROM TB_ALUNO where SEXO= 'F'
+
+```
+
+![quest7](https://user-images.githubusercontent.com/93049848/206442807-c949bb00-8637-4885-91fc-81015095a827.png)
