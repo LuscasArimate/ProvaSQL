@@ -1,7 +1,7 @@
 # PROVA PRATICA SQL
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
-<p align="left"> Ola, me chamo <stron>Lucas</strong>e esse é meu trabalho de PHP.<br> 
+<p align="left"> Ola, me chamo <strong>Lucas</strong> e esse é meu trabalho de PHP.<br> 
 <h1 align="center"> Bem vindos  👋</h1>
 
 
